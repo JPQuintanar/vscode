@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--barra de colores:   
+    #8ECAE6 -- AZUL CLARO
+    #219EBC -- AZUL TURQUESA
+    #023047 -- ASUL MARINO OSCURO
+    #FFB703 -- AMARILLO
+    #FB8500 -- NARANJA
+-------------------*/
+
+.nav-bar {
+    color: #FB8500;
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+}
+
+.links-del-nav-bar{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    color: #FB8500;
+    box-shadow: 10px 10px;
+    border-radius: 15px;
+}
+
+.footer-2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #FB8500;
+    box-shadow: 10px 10px; /*--aquí va el código para la sombra--*/
+    border-radius: 15px; /*--aquí va el redondeado de las cajas--*/
+    align-items: center;
+}
+
+.footer h3{
+    color: black;
+}
+
+.footer h2{
+    color: black;
+}
+
+.links-del-footer{
+    flex-wrap: wrap;
+    text-align: center;
+}
